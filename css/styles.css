@@ -815,3 +815,46 @@ ul {
   background: var(--white-color);
   cursor: pointer;
 }
+
+.form {
+  margin: 40px auto;
+}
+
+.form-headline {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.form-first-item {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 40px 20px 40px;
+  gap: 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--nav-contact-color);
+}
+
+.form-input-wrap {
+}
+
+.form-line-input {
+}
+
+.form-second-item {
+}
