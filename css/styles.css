@@ -963,9 +963,6 @@ ul {
   fill: var(--white-color);
 }
 
-.policy-label {
-}
-
 .form-checkbox-policy {
   position: absolute;
   width: 100%;
@@ -984,7 +981,7 @@ ul {
   left: 0;
   z-index: 2;
   border-radius: 3px;
-  color: var(--white-color);
+  color: var(--nav-contact-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
