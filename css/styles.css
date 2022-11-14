@@ -995,7 +995,7 @@ ul {
 }
 
 .form-checkbox-policy:checked ~ .checkbox-wrap {
-  fill: var(--accent-color);
+  background-color: var(--accent-color);
   border: none;
 }
 
