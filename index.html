@@ -442,6 +442,17 @@
             </li>
           </ul>
         </div>
+
+        <div class="third-footer-section">
+          <h2 class="footer-headline">Підпишіться на розсилку</h2>
+          <div class="footer-subscription-container">
+            <label for="footer-subscription"></label>
+            <input class="footer-input" placeholder="E-mail" type="email" id="footer-subscription" name="email" required/>
+            <a class="footer-subscription-link" href="" target="_blank" rel="noopener noreferrer">Підписатися<svg class="subscription-icon" width="24" height="24">
+              <use href="./images/svg/icons.svg#icon-icon-send"></use>
+            </svg></a>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -456,40 +467,40 @@
 
         <form class="form">
           <h3 class="form-headline">Залиште свої дані, ми вам передзвонимо</h3>
-          <div class="form-first-item ">
+          <ul class="form-first-item ">
 
             <label class="form-label" for="name">Ім'я</label>
-            <div class="form-field">
+            <li class="global-li form-field">
               <input class="form-input" type="text" name="name" id="name"  required>
               <svg class="form-icon-item" width="12" height="12">
                 <use href="./images/svg/icons.svg#icon-form-user"></use>
               </svg>
-            </div>
+            </li>
           
             <label class="form-label" for="tel">Телефон</label>
-            <div class="form-field">
+            <li class="global-li form-field">
               <input class="form-input" type='tel' name="tel" id="tel" required>
               <svg class="form-icon-item"  width="13" height="13">
                 <use href="./images/svg/icons.svg#icon-form-phone"></use>
               </svg>
-            </div>
+            </li>
 
             <label class="form-label" for="email">Пошта</label>
-            <div class="form-field">
+            <li class="global-li form-field">
               <input class="form-input" type="email" name="email" id="email" required>
               <svg class="form-icon-item"  width="15" height="12">
                 <use href="./images/svg/icons.svg#icon-form-mail"></use>
               </svg>
-            </div>
+            </li>
 
-            <div class="form-field">
+            <li class="global-li form-field">
               <label class="form-label" for="form-text">Коментар</label>
               <textarea class="form-input form-input-textarea" id="form-text" placeholder="Введіть текст"></textarea>
-            </div>
-          </div>
-          
-          <div class="form-second-item">
-            <div class="policy-container">
+            </li>
+          </ul>
+
+          <ul class="form-second-item">
+            <li class="global-li policy-container">
               <label class="policy-label" for="checkbox" />
               <input class="form-checkbox-policy" type="checkbox" name="checkbox" id="checkbox" required>
               <div class="checkbox-wrap">
@@ -497,17 +508,19 @@
                   <use href="./images/svg/icons.svg#icon-form-argee"></use>
                 </svg>
               </div>
-            </div>
+            </li>
 
-            <p class="policy-text">Погоджуюся з розсилкою та приймаю
-              <a class="policy-link"
-                href="#">Умови договору</a>
-            </p>
-          </div>
+            <li class="global-li">
+              <p class="policy-text">Погоджуюся з розсилкою та приймаю
+                <a class="policy-link"
+                  href="#">Умови договору</a>
+              </p>
+            </li>
+          </ul>
+
           <button class="form-submit" type="submit">Відправити</button>
+
         </form>
-
-
     <script src="js/modal.js"></script>
   </body>
 </html>
