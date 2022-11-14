@@ -325,10 +325,13 @@ ul {
   height: 50px;
   width: 358px;
   margin-right: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
 
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
 }
 
@@ -337,7 +340,6 @@ ul {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-left: 16px;
 }
 
 .footer-subscription-link {
@@ -521,9 +523,6 @@ ul {
 
 .activities-img-container {
   position: relative;
-}
-
-.activities-img {
 }
 
 .activities-label {
